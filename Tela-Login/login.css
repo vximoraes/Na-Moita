@@ -1,0 +1,132 @@
+body{
+    font-family: Arial;
+    background: linear-gradient(135deg, #8132A8, #0FA10C, #30D75F);
+}
+
+div{
+    background-color: #EFFFEC;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 388px;
+    height: 502px;
+    padding: 50px;
+    border-radius: 38px;
+    color: #3DA523
+}
+
+input{
+    background: #EFFFEC;
+}
+
+
+.bemvindoao{
+    position: absolute;
+    width: 300px;
+    left: 90px;
+    top: 118px;
+
+    font-family: Arial;
+    font-weight: 10;
+    font-size: 28px;
+
+    text-align: center;
+
+    color: #3DA523;
+}
+
+.namoitatextlogin{
+    position: absolute;
+    width: 303.69px;
+    height: 47px;  
+    top: 181px;
+    left: 87.05px;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+.input1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 315px;
+    height: 56px;
+    left: 82px;
+    top: 251px;
+
+    border: 1px solid #419E32;
+    border-radius: 20px;
+
+    outline: unset;
+    padding: 20px;
+}
+
+.input2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 315px;
+    height: 56px;
+    left: 82px;
+    top: 327px;
+
+    border: 1px solid #419E32;
+    border-radius: 20px;
+
+    outline: unset;
+    padding: 20px;
+}
+
+.botaologin{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 138px;
+    height: 31px;
+    left: 170px;
+    top: 403px;
+
+    border: 1px solid #419E32;
+    background: #EFFFEC;
+    border-radius: 20px;
+    color: #3DA523;
+}
+
+.naotemconta{
+    position: absolute;
+    width: 282px;
+    height: 20px;
+    left: 97px;
+    top: 429px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+
+    color: #419E32;
+
+}
+
+.registrese{
+    position: absolute;
+    width: 110px;
+    height: 31px;
+    left: 278px;
+    top: 451px;
+
+    border: 1px solid #419E32;
+    background: #3DA523;
+    border-radius: 9px;
+
+    color: #EFFFEC;
+}
+
+.naotemconta{
+    display: inline-block;
+    white-space: nowrap;
+    font-family: 'Times New Roman';
+    font-weight: 400;
+}
