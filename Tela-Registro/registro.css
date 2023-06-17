@@ -79,14 +79,30 @@ input{
     padding: 20px;
 }
 
-.botaologin{
+.input3{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 315px;
+    height: 56px;
+    left: 82px;
+    top: 403px;
+
+    border: 1px solid #419E32;
+    border-radius: 20px;
+
+    outline: unset;
+    padding: 20px;
+}
+
+.botaoregistro{
     box-sizing: border-box;
 
     position: absolute;
     width: 138px;
     height: 31px;
-    left: 170px;
-    top: 403px;
+    left: 168px;
+    top: 510px;
 
     border: 1px solid #419E32;
     background: #EFFFEC;
@@ -94,9 +110,11 @@ input{
     color: #3DA523;
 }
 
+.botaoregistro:hover{
 
-.botaologin:hover{
+    border: 1px solid #EFFFEC;
     background: #3DA523;
+    border-radius: 20px;
     color: #EFFFEC;
     transition: 0.3s;
     cursor: pointer;
@@ -130,10 +148,6 @@ input{
     border-radius: 9px;
 
     color: #EFFFEC;
-}
-
-.registrese:hover{
-    cursor: pointer;
 }
 
 .naotemconta{
