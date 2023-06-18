@@ -1,6 +1,12 @@
 body{
-    margin: 0%;
+    margin: 0;
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
+
+/***************************************************/
 
 header{
     display: flex;
@@ -98,9 +104,61 @@ header{
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
-    line-height: 150px;
+    line-height: 100px;
+
+    margin-top: 13px;
+    margin-bottom: 0px;
 
     color: #8132A8;
+}
+
+.caixa{
+    display: flex;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+
+    overflow-x: hidden;  
+}
+
+.caixa div{
+    margin: 1%;
+    box-shadow: 0px 0px 9px rgb(201, 201, 201);
+}
+
+.caixa div h2{
+    text-align: left;
+    margin-left: 10px;
+
+    font-family: 'Cocogoose';
+    font-style: normal;
+
+    color: #59A832;
+}
+
+.caixa div h4{
+    text-align: left;
+    margin-left: 10px;
+
+    font-family: 'Arial';
+    font-style: normal;
+
+    color: #8132A8;
+}
+
+/***************************************************/
+
+footer{
+    margin-top: 100px;
+    background: linear-gradient(135deg, #8132A8, #0FA10C, #30D75F);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+
+    bottom: 0;
 }
 
 
