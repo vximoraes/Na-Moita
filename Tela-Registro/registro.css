@@ -1,9 +1,9 @@
-body{
+body {
     font-family: Arial;
     background: linear-gradient(135deg, #8132A8, #0FA10C, #30D75F);
 }
 
-div{
+div {
     background-color: #EFFFEC;
     position: absolute;
     top: 50%;
@@ -16,12 +16,12 @@ div{
     color: #3DA523
 }
 
-input{
+input {
     background: #EFFFEC;
 }
 
 
-.bemvindoao{
+.bemvindoao {
     position: absolute;
     width: 300px;
     left: 90px;
@@ -36,10 +36,10 @@ input{
     color: #3DA523;
 }
 
-.namoitatextlogin{
+.namoitatextlogin {
     position: absolute;
     width: 303.69px;
-    height: 47px;  
+    height: 47px;
     top: 181px;
     left: 87.05px;
     text-align: center;
@@ -47,7 +47,7 @@ input{
     display: block;
 }
 
-.input1{
+.input1 {
     box-sizing: border-box;
 
     position: absolute;
@@ -63,7 +63,7 @@ input{
     padding: 20px;
 }
 
-.input2{
+.input2 {
     box-sizing: border-box;
 
     position: absolute;
@@ -79,7 +79,7 @@ input{
     padding: 20px;
 }
 
-.input3{
+.input3 {
     box-sizing: border-box;
 
     position: absolute;
@@ -95,7 +95,7 @@ input{
     padding: 20px;
 }
 
-.botaoregistro{
+.botaoregistro {
     box-sizing: border-box;
 
     position: absolute;
@@ -110,7 +110,7 @@ input{
     color: #3DA523;
 }
 
-.botaoregistro:hover{
+.botaoregistro:hover {
 
     border: 1px solid #EFFFEC;
     background: #3DA523;
@@ -120,7 +120,7 @@ input{
     cursor: pointer;
 }
 
-.naotemconta{
+.naotemconta {
     position: absolute;
     width: 282px;
     height: 20px;
@@ -136,7 +136,7 @@ input{
 
 }
 
-.registrese{
+.registrese {
     position: absolute;
     width: 110px;
     height: 31px;
@@ -150,7 +150,7 @@ input{
     color: #EFFFEC;
 }
 
-.naotemconta{
+.naotemconta {
     display: inline-block;
     white-space: nowrap;
     font-family: 'Times New Roman';
